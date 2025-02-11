@@ -1,0 +1,13 @@
+torch
+matplotlib
+numpy
+pandas
+langchain
+scikit-learn
+tensorflow
+tqdm
+accelerate
+beautifulsoup4
+transformers
+plotly
+selenium
