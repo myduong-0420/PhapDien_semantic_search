@@ -13,3 +13,8 @@ plotly
 selenium
 sentence_transformers
 tf-keras
+chroma
+langchain-community
+chromadb
+tiktoken
+readability-lxml
