@@ -18,3 +18,4 @@ langchain-community
 chromadb
 tiktoken
 readability-lxml
+gradio
