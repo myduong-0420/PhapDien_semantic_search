@@ -20,13 +20,13 @@ embedding_model = SentenceTransformerWrapper('bkai-foundation-models/vietnamese-
 
 # Load vector store
 vector_db = Chroma(
-    persist_directory="chroma_db_new",
-    embedding=embedding_model  # Use your SentenceTransformerWrapper instance
+    persist_directory="chroma_db",
+    embedding_function=embedding_model  # Use your SentenceTransformerWrapper instance
 )
 
 # Display results
 def retrieve_info(query, k):
-    results = vector_db.similarity_search(query, k=5)
+    results = vector_db.similarity_search(query, k)
     for i, doc in enumerate(results):
         print(f"Result {i+1}:")
         print(f"Metadata: {doc.metadata}")
