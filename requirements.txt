@@ -19,3 +19,5 @@ chromadb
 tiktoken
 readability-lxml
 gradio
+langchain-chroma>=0.1.2
+datasets
